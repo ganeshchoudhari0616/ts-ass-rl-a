@@ -1,0 +1,131 @@
+
+
+ .form-control {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Consistent color scheme */
+body {
+  background-color: #f0f0f0a6;
+  color: #333;
+}
+
+button {
+ 
+  color: #f0f0f0;
+  border: none;
+  /* background-color: #333; */
+      /* background-color: #198754; */
+      background-color: #283655 ;
+    
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: background-color 0.3s;
+      margin-top: 10%;
+      width: 20%;
+      margin-bottom: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+/* Custom fonts */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* CSS transitions */
+button {
+  transition: background-color 0.2s ease-in-out;
+
+}
+button:hover {
+  /* background-color: #444; */
+  background-color:transparent;
+  border: 2px solid#198754;
+  color: black;
+}
+
+/* Responsive images */
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Attractive design */
+label {
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.inline-position{
+  display: flex;
+  
+}
+input[type="number"] {
+      width: 50%;
+      text-align: center;
+      text-align: center;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      padding: 10px 20px;
+      margin-left: 10%;
+      margin-top: 20px;
+      margin-right: 10%;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+
+h3{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+li:hover {
+  background-color: #eee;
+}
+li.selected {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+
+    h1{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+  }
+
